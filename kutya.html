@@ -36,12 +36,45 @@
         </nav>
         <article>
             <div id="kutyaurlap">
-                    <form>
-                      <label for="elso">Mi lenne a kutyád neve?</label>
-                      <input type="text" placeholder="Morzsi">
-                    </form>
+                <form>
+                    <fieldset>
+                    <label for="nev">Neved:</label><br>
+                    <input type="text" id="neved" name="neved"><br>
+                    <label for="szuletes">Születési dátum:</label><br>
+                    <input type="date" id="szuletes" name="szuletes" ><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="telefonszam">Telefonszám:</label><br>
+                    <input type="tel" id="telefonszam" name="telefonszam"><br>
+                    <label for="nem">Nem:</label><br>
+                    <input type="radio" name="nem" id="férfi">
+                    <label for="férfi">férfi</label><br>
+                    <input type="radio" name="nem" id="no">
+                    <label for="no">nő</label><br>
+                    <label for="elso">Mi lenne a kutyád neve?</label><br>
+                    <input type="text" placeholder="Morzsi" name="elso" id="elso"><br>
+                    <label for="masodik">Ha ezek közül választhatnál, melyik lenne az?</label><br>
+                    <input type="radio" id="pitbull" name="fajta" value="Pitbull">
+                    <label for="pitbull">Pitbull</label>
+                    <input type="radio" id="labrador" name="fajta" value="labrador">
+                    <label for="css">Labrador</label>
+                    <input type="radio" id="tacsko" name="fajta" value="Tacskó">
+                    <label for="tacsko">Tacskó</label><br>
+                    <label for="havan">Ha van kutyád, mióta?(hónap)</label><br>
+                    <input type="number" min="0"><br>
+                    <label for="hirlevel">Feliratkozom a hírlevélre: </label>
+                    <input type="checkbox" name="hirlevel" id="hirlevel"><br>
+                </fieldset>
+                    <input type="submit" name="bekuldes" id="bekuldes">
+                </form>
             </div>
         </article>
+        <aside>
+            <ul>
+                <li><img src="kepek/goffykutyus.jpeg" alt="kutya"></li>
+                <li><img src="kepek/ketkutya.jpg" alt="kutyak"></li>
+            </ul>
+        </aside>
         <footer>
 
         </footer>

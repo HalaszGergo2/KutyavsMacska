@@ -75,3 +75,10 @@ article > p{
     font-size: 16px;
     text-align: justify;
 }
+img{
+    border-radius: 15px;
+    width: 100%;
+}
+fieldset{
+    padding: 10px;
+}
