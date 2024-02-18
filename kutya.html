@@ -3,10 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="UTF-8">
-        <meta name="description" content="Free Web tutorials">
-        <meta name="keywords" content="HTML, CSS, JavaScript">
-        <meta name="author" content="John Doe">
+        <meta name="description" content="kutya, macska">
+        <meta name="keywords" content="kutya, macska">
+        <meta name="author" content="Baksa Bence, Halász Gergő">
         <link rel="stylesheet" href="stilus.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,25 +19,17 @@
         </header>
         <nav>
             <ul>
-                <div id="hatter1">
-                    <li><a href="index.html">Kezdőlap</a></li>
-                </div>
-                <div id="hatter2">
-                    <li><a href="kutya.html">Kutya</a></li>
-                </div>
-                <div id="hatter3">
-                    <li><a href="macska.html">Macska</a></li>
-                </div>
-                <div id="hatter4">
-                    <li><a href="csapatmunka.html">Csapatmunka</a></li>
-                </div>        
+                    <li id="hatter1"><a href="index.html">Kezdőlap</a></li>
+                    <li id="hatter2"><a href="kutya.html">Kutya</a></li>
+                    <li id="hatter3"><a href="macska.html">Macska</a></li>
+                    <li id="hatter4"><a href="csapatmunka.html">Csapatmunka</a></li>        
             </ul>
         </nav>
         <article>
                 <form>
                     <fieldset>
                     <label for="nev">Neved:</label><br>
-                    <input type="text" id="neved" name="neved"><br>
+                    <input type="text" id="nev" name="nev"><br>
                     <label for="szuletes">Születési dátum:</label><br>
                     <input type="date" id="szuletes" name="szuletes" ><br>
                     <label for="email">Email:</label><br>
@@ -46,21 +37,21 @@
                     <label for="telefonszam">Telefonszám:</label><br>
                     <input type="tel" id="telefonszam" name="telefonszam"><br>
                     <label for="nem">Nem:</label><br>
-                    <input type="radio" name="nem" id="férfi">
-                    <label for="férfi">férfi</label><br>
-                    <input type="radio" name="nem" id="no">
-                    <label for="no">nő</label><br>
+                    <input type="radio" name="nem" id="nem">
+                    <label for="nem">férfi</label><br>
+                    <input type="radio" name="nem" id="nem2">
+                    <label for="nem">nő</label><br>
                     <label for="elso">Mi lenne a kutyád neve?</label><br>
                     <input type="text" placeholder="Morzsi" name="elso" id="elso"><br>
                     <label for="masodik">Ha ezek közül választhatnál, melyik lenne az?</label><br>
-                    <input type="radio" id="pitbull" name="fajta" value="Pitbull">
-                    <label for="pitbull">Pitbull</label>
+                    <input type="radio" id="masodik" name="fajta" value="Pitbull">
+                    <label for="masodik">Pitbull</label>
                     <input type="radio" id="labrador" name="fajta" value="labrador">
-                    <label for="css">Labrador</label>
+                    <label for="masodik">Labrador</label>
                     <input type="radio" id="tacsko" name="fajta" value="Tacskó">
-                    <label for="tacsko">Tacskó</label><br>
+                    <label for="masodik">Tacskó</label><br>
                     <label for="havan">Ha van kutyád, mióta?(hónap)</label><br>
-                    <input type="number" min="0"><br>
+                    <input type="number" min="0" name="havan" id="havan"><br>
                     <label for="hirlevel">Feliratkozom a hírlevélre: </label>
                     <input type="checkbox" name="hirlevel" id="hirlevel"><br>
                 </fieldset>
