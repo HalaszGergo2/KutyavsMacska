@@ -16,14 +16,65 @@
 <body>
     <main>
         <header>
-
+                <h1>Macsek űrlap</h1>
         </header>
         <nav>
-
+            <ul>
+                <div id="hatter1">
+                    <li><a href="index.html">Kezdőlap</a></li>
+                </div>
+                <div id="hatter2">
+                    <li><a href="kutya.html">Kutya</a></li>
+                </div>
+                <div id="hatter3">
+                    <li><a href="macska.html">Macska</a></li>
+                </div>
+                <div id="hatter4">
+                    <li><a href="csapatmunka.html">Csapatmunka</a></li>
+                </div>        
+            </ul>
         </nav>
         <article>
-
+            <div id="macsekurlap">
+                <form>
+                    <fieldset>
+                    <label for="nev">Neved:</label><br>
+                    <input type="text" id="neved" name="neved"><br>
+                    <label for="szuletes">Születési dátum:</label><br>
+                    <input type="date" id="szuletes" name="szuletes" ><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="telefonszam">Telefonszám:</label><br>
+                    <input type="tel" id="telefonszam" name="telefonszam"><br>
+                    <label for="nem">Nem:</label><br>
+                    <input type="radio" name="nem" id="férfi">
+                    <label for="férfi">férfi</label><br>
+                    <input type="radio" name="nem" id="no">
+                    <label for="no">nő</label><br>
+                    <label for="elso">Mi lenne a kutyád neve?</label><br>
+                    <input type="text" placeholder="Cirmos" name="elso" id="elso"><br>
+                    <label for="masodik">Ha ezek közül választhatnál, melyik lenne az?</label><br>
+                    <input type="radio" id="karthauzi" name="fajta" value="karthauzi">
+                    <label for="karthauzi">Karthauzi</label>
+                    <input type="radio" id="karakal" name="fajta" value="karakal">
+                    <label for="karakal">Karakál</label>
+                    <input type="radio" id="maine coon" name="fajta" value="maine coon">
+                    <label for="maine coon">Maine Coon</label><br>
+                    <label for="havan">Ha van macsekod, mióta?(hónap)</label><br>
+                    <input type="number" min="0"><br>
+                    <label for="hirlevel">Feliratkozom a hírlevélre: </label>
+                    <input type="checkbox" name="hirlevel" id="hirlevel"><br>
+                </fieldset>
+                    <input type="submit" name="bekuldes" id="bekuldes">
+                </form>
+            </div>
         </article>
+        <aside>
+            <ul>
+                <li><img src="kepek/macska.jpg" alt="macska"></li>
+                <li><img src="kepek/macsekkk.webp" alt="macsek"></li>
+            </ul>
+        </aside>
         <footer>
 
         </footer>
