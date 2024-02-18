@@ -33,6 +33,7 @@ article{
     padding: 10px;
 }
 nav{
+
     grid-area: n;
 }
 nav ul{
@@ -79,6 +80,22 @@ img{
     border-radius: 15px;
     width: 100%;
 }
-fieldset{
-    padding: 10px;
+input{
+    padding: 5px;
+    margin: 10px;
+}
+@media (max-width: 800px){
+    nav ul{
+        grid-template-columns: 1fr;
+    }
+    main{
+        width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "h"
+    "n"
+    "s"
+    "a"
+    "f";
+}
 }
